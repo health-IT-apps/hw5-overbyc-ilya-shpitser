@@ -11,7 +11,7 @@ As a researcher I want to compare age at diagnosis of breast cancer among differ
 
 ## Access and Running Instructions
 
-Access our visualization at https://health-it-apps.github.io/hw5-overbyc-ilya-shpitser/ or download this repository and run `python controller.py` and access this from http://127.0.0.1:5000/.
+Access our interactive chart [here](cot.pythonanywhere.com) or download this repository and run `python controller.py` and access this from http://127.0.0.1:5000/.
 
 ## Story Board
 
