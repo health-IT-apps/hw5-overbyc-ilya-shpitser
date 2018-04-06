@@ -18,7 +18,7 @@ Create a [Github Organization Project Page](https://help.github.com/articles/use
 
 At the top of the GitHub project, replace the one-line description (i.e., replace "Example repository for HW 5 group assignment submission")
 
-At the top of the GitHub project, replace the link to your final work so people can access it directly from the CS.601.265 GitHub page (i.e., replace "http://health-IT-apps.github.io/HW5-Group-Assignment-overbyc-ilya-shpitser/".
+At the top of the GitHub project, replace the link to your final work so people can access it directly from the CS.601.265 GitHub page (i.e., replace "http://health-IT-apps.github.io/HW5-Group-Assignment-overbyc-ilya-shpitser/").
 
 ## Story Board
 
@@ -39,9 +39,7 @@ Include:
 ## Data Source Acknowledgement
 
 For this example:
-
 * Surveillance, Epidemiology, and End Results (SEER) Program (www.seer.cancer.gov) Research Data (1973-2013), National Cancer Institute, DCCPS, Surveillance Research Program, Surveillance Systems Branch, released April 2016, based on the November 2015 submission.
 
-You will include:
-
+For your assignment, you will include:
 * MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available at: http://www.nature.com/articles/sdata201635
