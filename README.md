@@ -15,7 +15,7 @@ Access our interactive chart [here](http://cot.pythonanywhere.com) or download t
 
 ## Story Board
 
-<img src="https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/master/storyboard.jpg" width="500">
+<img src="https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/master/storyboard.png" width="500">
 
 ### Changes between Storyboard and the Final Implementation
 
