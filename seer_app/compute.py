@@ -9,8 +9,7 @@ def data_import(filename):
     return(patients)
 
 def generate_tuples():
-    filename = '/home/cot/mysite/seer_app/patient_table_data5000.csv'
-    #filename = '~/GitHub/HW5-code/seer_app/patient_table_data5000.csv'
+    filename = '/home/cot/hw5-overbyc-ilya-shpitser/seer_app/patient_table_data5000.csv'
     self = data_import(filename)
 
     x_tuple = ()
@@ -34,7 +33,7 @@ def compute_metrics(x,yaxis):
 
 def plot(X, Y):
     """Return filename of plot of boxplots."""
-    filename = '~/Health-IT-Apps-Course/patient_table_data5000.csv'
+    filename = '/home/cot/hw5-overbyc-ilya-shpitser/seer_app/patient_table_data5000.csv'
     patients = data_import(filename)
 
     compute_metrics(patients.groupby(Y),Y)
