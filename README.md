@@ -15,15 +15,18 @@ Access our interactive chart [here](http://cot.pythonanywhere.com) or download t
 
 ## Story Board
 
-* PLACE HOLDER
+<img src="https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/master/storyboard.jpg" width="500">
 
 ### Changes between Storyboard and the Final Implementation
 
-* PLACE HOLDER
+* Used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
 
 ## Development Process
 
-* PLACE HOLDER
+* Processed data: imputed missing data in the SEER dataset, and extracted a subset of 5000 patients with variables relevant to our scenario.
+* Implemented computations:  (a) determine which variables in the dataset are continuous and wich are categorical, (b) for a selected continuous variable, calculate min, max, median, and mean (used in the chart).
+* Implemented an interaction: allow the user to select the x-axis and y-axis variable and to plot data as a chart.
+* Implemented a chart: upon clicking the "Plot" button, generate a box-plot.
   
 ## Data Source Acknowledgement
 
