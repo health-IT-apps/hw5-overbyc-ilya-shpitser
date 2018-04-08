@@ -1,4 +1,4 @@
-# Example HW5 Group Assignment
+# Example HW5 Group Assignment - CS.601.265 (Spring 2018)
 
 ## Team Members
 
@@ -38,3 +38,5 @@ Extracted a subset of 5000 patients with variables relevant to our scenario (AGE
 ## Data Source Acknowledgement
 
 * Surveillance, Epidemiology, and End Results (SEER) Program (www.seer.cancer.gov) Research Data (1973-2013), National Cancer Institute, DCCPS, Surveillance Research Program, Surveillance Systems Branch, released April 2016, based on the November 2015 submission.
+
+©2018 THE JOHNS HOPKINS UNIVERSITY, ALL RIGHTS RESERVED. BALTIMORE, MARYLAND.
