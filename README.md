@@ -13,17 +13,18 @@ As a researcher I want to compare age at diagnosis of breast cancer among differ
 
 Access our interactive chart [here](http://cot.pythonanywhere.com) or download this repository and run `python controller.py` and access this from http://127.0.0.1:5000/.
 
-## Story Board
+## Design details
+
+### Storyboard
 
 Click [here](https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/master/storyboard.png) to view.
 
-### Changes between Storyboard and the Final Implementation
+Used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
 
-* Used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
+### Data description
+Extracted a subset of 5000 patients with variables relevant to our scenario (AGE_DX, RACEIV, and RACEIV).
 
 ## Development Process
-
-* Processed data: imputed missing data in the SEER dataset, and extracted a subset of 5000 patients with variables relevant to our scenario.
 * Implemented computations:  (a) determine which variables in the dataset are continuous and wich are categorical, (b) for a selected continuous variable, calculate min, max, median, and mean (used in the chart).
 * Implemented an interaction: allow the user to select the x-axis and y-axis variable and to plot data as a chart.
 * Implemented a chart: upon clicking the "Plot" button, generate a box-plot.
