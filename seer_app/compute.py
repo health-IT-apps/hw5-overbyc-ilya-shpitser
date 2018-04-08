@@ -4,10 +4,12 @@ import pandas as pd
 import pandas.api.types as ptypes
 import seaborn as sns
 
+# import data file
 def data_import(filename):
     patients = pd.read_csv(filename)
     return(patients)
 
+# create tuples of continuous and categorical variables
 def generate_tuples():
     filename = '/home/cot/hw5-overbyc-ilya-shpitser/seer_app/patient_table_data5000.csv'
     self = data_import(filename)
@@ -20,17 +22,19 @@ def generate_tuples():
         typ = ptypes.infer_dtype(self[col])
         if typ == "integer":
             y_tuple = (col,col)
-            y_tuples.append(y_tuple)
+            y_tuples.append(y_tuple) # continuous variables
         elif typ == "string":
             x_tuple = (col,col)
-            x_tuples.append(x_tuple)
+            x_tuples.append(x_tuple) # categorical variables
     tuples = [x_tuples, y_tuples]
     return(tuples)
 
+# values needed for box plot
 def compute_metrics(x,yaxis):
    result = {'MIN': x[yaxis].min(), 'MAX': x[yaxis].max(),'MEDIAN': x[yaxis].median(), 'MEAN': x[yaxis].mean()}
    return pd.Series(result, name='metrics')
 
+# create box plot
 def plot(X, Y):
     """Return filename of plot of boxplots."""
     filename = '/home/cot/hw5-overbyc-ilya-shpitser/seer_app/patient_table_data5000.csv'
@@ -38,7 +42,7 @@ def plot(X, Y):
 
     compute_metrics(patients.groupby(Y),Y)
 
-    plt.figure()  # needed to avoid adding curves in plot
+    plt.figure()
 
     sns.set_style("whitegrid")
     ax = sns.boxplot(x = patients[X], y= patients[Y])
@@ -50,7 +54,7 @@ def plot(X, Y):
     if not os.path.isdir('static'):
         os.mkdir('static')
     else:
-       # Remove old plot files
+       # remove old plot file
        for filename in glob.glob(os.path.join('static', '*.png')):
             os.remove(filename)
     # a unique filename that the browser has not chached
