@@ -11,7 +11,7 @@ As a researcher I want to compare age at diagnosis of breast cancer among differ
 
 ## Access and Running Instructions
 
-Access our interactive chart [here](http://cot.pythonanywhere.com) or download this repository and run `python controller.py` and access this from http://127.0.0.1:5000/.
+Access our interactive chart [here](http://cot.pythonanywhere.com) or download this repository and run `python controller.py` and access this from http://127.0.0.1:5000/. Note that you will need to update file paths in `compute.py` to point to your local directory.
 
 ## Design details
 
@@ -19,7 +19,7 @@ Access our interactive chart [here](http://cot.pythonanywhere.com) or download t
 
 Click [here](https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/master/storyboard.png) to view.
 
-Used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
+* Changes from storyboard: used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
 
 ### Data description
 Extracted a subset of 5000 patients with variables relevant to our scenario (AGE_DX, RACEIV, and RACEIV).
