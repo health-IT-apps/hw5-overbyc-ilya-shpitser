@@ -21,10 +21,16 @@ Click [here](https://github.com/health-IT-apps/hw5-overbyc-ilya-shpitser/blob/ma
 
 * Changes from storyboard: used boxplots instead of a barchart because it allows the user to better see the distribution of the data among groups.
 
+### Interaction
+
+Allow the user to select different measures to display.
+
 ### Data description
-Extracted a subset of 5000 patients with variables relevant to our scenario (AGE_DX, RACEIV, and RACEIV).
+
+Extracted a subset of 5000 patients with variables relevant to our scenario (AGE_DX, RACEIV, and RACEIV). Note: not all measures in this example generate a meaningful boxplot.
 
 ## Development Process
+
 * Implemented computations:  (a) determine which variables in the dataset are continuous and wich are categorical, (b) for a selected continuous variable, calculate min, max, median, and mean (used in the chart).
 * Implemented an interaction: allow the user to select the x-axis and y-axis variable and to plot data as a chart.
 * Implemented a chart: upon clicking the "Plot" button, generate a box-plot.
